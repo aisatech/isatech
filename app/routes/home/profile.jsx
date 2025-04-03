@@ -21,7 +21,7 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hello, world!" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-    Meu nome é Isabelle Oliveira. Sou designer e desenvolvedora júnior, apaixonada por tecnologia e aprendizado contínuo. Estou cursando Ciência da Computação e atualmente estou viajando pela Amazônia.
+    Meu nome é Isabelle Oliveira. Sou designer e desenvolvedora júnior, apaixonada por tecnologia e aprendizado contínuo. Estou cursando Ciência da Computação e atualmente moro em Belém do Pará, no coração da Amazônia.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
     Minha trajetória profissional inclui contribuições marcantes no mercado financeiro, onde ajudei a criar produtos que conquistaram a confiança de grandes players como o BTG Pactual. Durante meu período na Stone, líder em soluções de pagamento no Brasil, mergulhei no ecossistema de vendas presenciais. Com uma visão criativa, estou pronta para transformar desafios em soluções inovadoras que gerem impacto.

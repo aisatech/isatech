@@ -103,6 +103,8 @@ export const Contact = () => {
   const sending = state === 'submitting';
 
   return (
+
+    
     <Section className={styles.contact}>
       <Transition unmount in={!actionData?.success} timeout={1600}>
         {({ status, nodeRef }) => (
@@ -119,15 +121,15 @@ export const Contact = () => {
               as="h1"
               style={getDelay(tokens.base.durationXS, initDelay, 0.3)}
             >
-              <DecoderText text="Say hello" start={status !== 'exited'} delay={300} />
+              <DecoderText text="Me envie uma mensagem pelo whatsapp" start={status !== 'exited'} delay={300} />
             </Heading>
             <Divider
               className={styles.divider}
               data-status={status}
               style={getDelay(tokens.base.durationXS, initDelay, 0.4)}
             />
-            {/* Hidden honeypot field to identify bots */}
-            <Input
+            {/* Hidden honeypot field
+              <Input
               className={styles.botkiller}
               label="Name"
               name="name"
@@ -181,6 +183,13 @@ export const Contact = () => {
                 </div>
               )}
             </Transition>
+            
+            
+            
+            to identify bots */}
+
+           
+          
             <Button
               className={styles.button}
               data-status={status}
@@ -191,12 +200,15 @@ export const Contact = () => {
               loadingText="Sending..."
               icon="send"
               type="submit"
+              href="https://wa.me/5531983819560"
             >
-              Send message
+              Enviar mensagem
             </Button>
           </Form>
         )}
       </Transition>
+
+   
       <Transition unmount in={actionData?.success}>
         {({ status, nodeRef }) => (
           <div className={styles.complete} aria-live="polite" ref={nodeRef}>

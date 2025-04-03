@@ -158,7 +158,7 @@ export const Home = () => {
         visible={visibleSections.includes(projectThree.current)}
         index={2023}
         title="Ready To Go"
-        description="Na Ready To Go, contribuí para o design e desenvolvimento dos aplicativos Light Copy e Stories10x., ambos disponíveis nas lojas por uma assinatura anual. Também participei do design da página de vendas do curso Light Copy, que gerou uma taxa de conversão superior à média do mercado, ajudando a impulsionar os resultados da startup, que já faturou 120 milhões. "
+        description="Na Ready To Go, contribuí para o design e desenvolvimento dos aplicativos Light Copy e Stories10x, ambos disponíveis nas lojas por uma assinatura anual. Também participei do design da página de vendas do curso Light Copy, que gerou uma taxa de conversão superior à média do mercado, ajudando a impulsionar os resultados da startup, que já faturou 120 milhões. "
         buttonText="Visite o site da empresa"
         buttonLink="https://readytogo.com.br"
         model={{
@@ -212,7 +212,7 @@ model={{
         title="Otimização de artigos internos para treinamento de pessoal e LLM's"
         description="Protagonizei um projeto interno que consistiu em otimizar artigos para o treinamento de pessoal e também de LLM's da própria companhia. "
         buttonText="Entre em contato para saber mais"
-        buttonLink="/projects/projetointerno"
+        buttonLink="/contact"
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',
