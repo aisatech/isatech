@@ -27,9 +27,9 @@ import { media } from '~/utils/style';
 import { baseMeta } from '~/utils/meta';
 import styles from './stonepospix.module.css';
 
-const title = 'Campanha PIX 2.0';
+const title = 'Campanha PIX - Stone e Ton';
 const description =
-  'Fui destaque para o desenvolvimento de uma campanha de divulgação da função PIX para mais 1,6 milhão de usuários, com foco na marca Ton. A campanha alcançou uma taxa de abertura de 46%, refletindo o sucesso em engajar os usuários e promover a adoção do PIX, que nos meses seguintes passou a ser mais utilizado.';
+  'Fui destaque para o desenvolvimento de uma campanha de divulgação da função PIX para mais 1,6 milhão de usuários, com foco na marca Ton.';
 const roles = ['Research', 'Product Design', ];
 
 export const meta = () => {
@@ -69,9 +69,9 @@ export const Stonepospix = () => {
         <ProjectSection>
           <ProjectSectionColumns centered className={styles.columns}>
             <div className={styles.imagesText}>
-              <ProjectSectionHeading>StoneCo, Ton e Stone</ProjectSectionHeading>
+              <ProjectSectionHeading>Ton, uma marca da Stone</ProjectSectionHeading>
               <ProjectSectionText>
-              A StoneCo se destaca como uma das líderes no mercado brasileiro de soluções de pagamento. A empresa atua por meio de duas marcas no segmento de adquirência: Ton, dedicada a fornecer soluções para pequenos empreendedores, e Stone, voltada para médios e grandes negócios. Em minha atuação na companhia, sou responsável por colaborar no design e desenvolvimento de experiências de pagamento presencial, ou seja, aquelas realizadas nos dispositivos, comumente conhecidos no Brasil como "maquininhas".
+              A Stone se destaca como uma das líderes no mercado brasileiro de soluções de pagamento. A empresa atua por meio de duas marcas no segmento de adquirência: Ton, dedicada a fornecer soluções para pequenos empreendedores, e Stone, voltada para médios e grandes negócios. Em minha atuação na companhia, fui responsável por colaborar no design e desenvolvimento de experiências de pagamento presencial, ou seja, aquelas realizadas nos dispositivos, comumente conhecidos no Brasil como "maquininhas".
               </ProjectSectionText>
             </div>
             <div className={styles.sidebarImages}>
