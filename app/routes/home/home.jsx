@@ -103,7 +103,7 @@ export const Home = () => {
         index={2022}
         title="BridgeHub: uma ponte para investidores e startups"
         description="Desenhei a experiência e interface de um aplicativo de equity crowdfunding e 
-        atuei no desenvolvimento do frontend em colaboração com a equipe. A plataforma possibilitou a 
+        atuei no desenvolvimento do frontend em colaboração com uma equipe multidisiciplinar. A plataforma possibilitou a 
         captação de mais de R$ 8 milhões para startups e foi adquirida pelo Grupo BTG Pactual."
         buttonText="Ver projeto"
         buttonLink="/projects/bridgehub"
@@ -130,8 +130,8 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2024}
-        title="Campanha PIX 2.0"
-        description="Experiência para o recebimento e leitura de uma campanha de divulgação de nova funcionalidade, PIX 2.0. O projeto foi desenvolvido paras as marcas Ton e Stone e exibido para mais de 1,6 milhão de usuários."
+        title="Campanha PIX"
+        description="Experiência para o recebimento e leitura de uma campanha de divulgação da funcionalidade PIX, que recebeu atualizações. A campanha foi desenvolvida paras as marcas Ton e Stone e exibida para mais de 1,6 milhão de clientes."
         buttonText="Ver projeto"
         buttonLink="/projects/stonepospix"
         model={{
@@ -158,7 +158,7 @@ export const Home = () => {
         visible={visibleSections.includes(projectThree.current)}
         index={2023}
         title="Ready To Go"
-        description="Na Ready To Go, contribuí para o design e desenvolvimento dos aplicativos Light Copy e Stories10x, ambos disponíveis nas lojas por uma assinatura anual. Também participei do design da página de vendas do curso Light Copy, que gerou uma taxa de conversão superior à média do mercado, ajudando a impulsionar os resultados da startup, que já faturou 120 milhões. "
+        description="Na Ready To Go, contribuí para o design e desenvolvimento dos aplicativos Light Copy e Stories10x, ajudando a impulsionar os resultados da startup, que já faturou 120 milhões. "
         buttonText="Visite o site da empresa"
         buttonLink="https://readytogo.com.br"
         model={{
