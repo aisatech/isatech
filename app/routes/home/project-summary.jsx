@@ -3,6 +3,7 @@ import { Divider } from '~/components/divider';
 import { Heading } from '~/components/heading';
 import { deviceModels } from '~/components/model/device-models';
 import { Section } from '~/components/section';
+import { Tag } from '~/components/tag';
 import { Text } from '~/components/text';
 import { useTheme } from '~/components/theme-provider';
 import { Transition } from '~/components/transition';
@@ -25,6 +26,7 @@ export function ProjectSummary({
   index,
   title,
   description,
+  categories,
   model,
   buttonText,
   buttonLink,
@@ -103,6 +105,13 @@ export function ProjectSummary({
         <Text className={styles.description} data-visible={visible} as="p">
           {description}
         </Text>
+        {categories && categories.length > 0 && (
+          <div className={styles.categories} data-visible={visible}>
+            {categories.map((category, index) => (
+              <Tag key={index}>{category}</Tag>
+            ))}
+          </div>
+        )}
         <div className={styles.button} data-visible={visible}>
           <Button iconHoverShift href={buttonLink} iconEnd="arrow-right">
             {buttonText}

@@ -105,6 +105,7 @@ export const Home = () => {
         description="Desenhei a experiência e interface de um aplicativo de equity crowdfunding e 
         atuei no desenvolvimento do frontend em colaboração com uma equipe multidisiciplinar. A plataforma possibilitou a 
         captação de mais de R$ 8 milhões para startups e foi adquirida pelo Grupo BTG Pactual."
+        categories={['UX/UI Design', 'Frontend', 'React']}
         buttonText="Ver projeto"
         buttonLink="/projects/bridgehub"
         model={{
@@ -132,6 +133,7 @@ export const Home = () => {
         index={2024}
         title="Campanha PIX"
         description="Experiência para o recebimento e leitura de uma campanha de divulgação da funcionalidade PIX, que recebeu atualizações. A campanha foi desenvolvida paras as marcas Ton e Stone e exibida para mais de 1,6 milhão de clientes."
+        categories={['Design', 'UX', 'Campanha']}
         buttonText="Ver projeto"
         buttonLink="/projects/stonepospix"
         model={{
@@ -159,11 +161,12 @@ export const Home = () => {
         index={2023}
         title="Ready To Go"
         description="Na Ready To Go, contribuí para o design e desenvolvimento dos aplicativos Light Copy e Stories10x, ajudando a impulsionar os resultados da startup, que já faturou 120 milhões. "
+        categories={['Design', 'Frontend', 'Startup']}
         buttonText="Visite o site da empresa"
         buttonLink="https://readytogo.com.br"
         model={{
           type: 'laptop',
-          alt: 'Annotating a biomedical image in the Slice app',
+          alt: 'Landingpage do curso LightCopy em um laptop',
           textures: [
             {
               srcSet: `${capaRtg} 800w, ${capaRtg} 1920w`,
@@ -211,6 +214,7 @@ model={{
         index={2024}
         title="Otimização de artigos internos para treinamento de pessoal e LLM's - Stone"
         description="Protagonizei um projeto interno que consistiu em otimizar artigos para o treinamento de pessoal e também de LLM's da própria companhia. "
+        categories={['Documentação', 'LLM', 'Otimização']}
         buttonText="Entre em contato para saber mais"
         buttonLink="/contact"
         model={{
