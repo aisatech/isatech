@@ -101,12 +101,13 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={2022}
-        title="BridgeHub: uma ponte para investidores e startups"
-        description="Desenhei a experiência e interface de um aplicativo de equity crowdfunding e 
-        atuei no desenvolvimento do frontend em colaboração com uma equipe multidisiciplinar. A plataforma possibilitou a 
-        captação de mais de R$ 8 milhões para startups e foi adquirida pelo Grupo BTG Pactual."
+        title="BridgeHub: do zero à aquisição pelo BTG Pactual"
+        description="Protagonizei o design de ponta a ponta e participei do desenvolvimento front-end 
+        de uma das primeiras plataformas de equity crowdfunding no Brasil, viabilizando 
+        R$ 8 milhões em captações antes de ser adquirida pelo maior banco de 
+        investimentos da América Latina (BTG Pactual)."
         categories={['UX/UI Design', 'Frontend', 'React']}
-        buttonText="Ver projeto"
+        buttonText="Veja o case"
         buttonLink="/projects/bridgehub"
         model={{
           type: 'phone',
