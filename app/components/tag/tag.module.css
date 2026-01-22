@@ -1,0 +1,18 @@
+@layer components {
+  .tag {
+    display: inline-block;
+    padding: var(--spaceS) var(--spaceM);
+    border: 1px solid color-mix(in lab, var(--white) 60%, transparent);
+    color: color-mix(in lab, var(--white) 60%, transparent);
+    font-size: var(--fontSizeBodyS);
+    font-weight: var(--fontWeightRegular);
+    line-height: 1.4;
+    white-space: nowrap;
+    background-color: transparent;
+
+    [data-theme='light'] & {
+      color: color-mix(in lab, var(--black) 60%, transparent);
+      border-color: color-mix(in lab, var(--black) 60%, transparent);
+    }
+  }
+}
