@@ -105,7 +105,7 @@ export const Home = () => {
         description="Protagonizei o design de ponta a ponta e participei do desenvolvimento front-end 
         de uma das primeiras plataformas de equity crowdfunding no Brasil, viabilizando 
         R$ 8 milhões em captações antes de ser adquirida pelo maior banco de 
-        investimentos da América Latina (BTG Pactual)."
+        investimentos da América Latina."
         categories={['UX/UI Design', 'Frontend', 'React']}
         buttonText="Veja o case"
         buttonLink="/projects/bridgehub"

@@ -43,9 +43,9 @@ const EarthSection = lazy(() =>
 
 const title = 'Uma ponte para investidores e startups';
 const description =
-  'Conduzi o processo de discovery do projeto, desenhei a interface e experiência da plataforma, e colaborei com a equipe no desenvolvimento do frontend, utilizando React e Next.js. Para garantir escalabilidade e consistência, documentamos e testamos os componentes isoladamente no Storybook. A plataforma possibilitou a captação de mais de R$ 8 milhões para startups e foi adquirida pelo Grupo BTG Pactual no ano de 2023.';
+  'Como Product Designer e desenvolvedora no Grupo Voga, conduzi o design e colaborei no desenvolvimento front-end da BridgeHub, plataforma de equity crowdfunding que transacionou mais de R$ 8 milhões e foi adquirida pelo Grupo BTG Pactual. Minha atuação uniu UX estratégica, Design UI e implementação em React/Next.js.';
 const roles = [
-  'UX and UI Design',
+  'UX/UI Design',
   'Front End Development',
   'Design Concept',
 ];
@@ -106,15 +106,11 @@ export const SmartSparrow = () => {
           <ProjectTextRow>
             <ProjectSectionHeading>Cenário</ProjectSectionHeading>
             <ProjectSectionText>
-              Em 2022, o Grupo Voga criou a BridgeHub para ser uma 
-              plataforma de equity crowfunding, criando uma experiência
-              de investimento diferente para startups e investidores. 
-              A ideia era economizar tempo dos usuários envolvidos,
-              que antes precisavam participar de reuniões presenciais para investir
-              ou levantar capital. 
-              <br></br><br></br>
-              O mercado era muito recente no Brasil, e ainda não haviam muitas
-               referências neste ecossistema. Busquei referência nas também emergentes plataformas brasileiras, e nas já consolidadas plataformas estrangeiras.
+              Em 2022, o desafio era digitalizar um processo historicamente burocrático e 
+              presencial. O objetivo estratégico era criar confiança em um mercado emergente 
+              no Brasil, transformando reuniões complexas em um fluxo de investimento digital 
+              fluido, seguro e escalável.
+  
             </ProjectSectionText>
           </ProjectTextRow> 
         </ProjectSection>
@@ -150,7 +146,7 @@ export const SmartSparrow = () => {
               <ProjectSectionHeading>Ferramentas e time</ProjectSectionHeading>
               <ProjectSectionText>
                 Após validar os primeiros passos com um processo de Discovery, 
-                desenvolvi os componentes e desenho das telas no Figma. Assim que concluí esta fase do projeto, me 
+                desenvolvi a interface e protótipos no Figma. Assim que concluí esta fase do projeto, me 
                 incorporei ao time de desenvolvedores para realizar a construção do frontend, utilizando React e Next.js.
                 Utilizamos o storybook para documentar e testar os componentes de forma isolada.
           
@@ -212,8 +208,10 @@ export const SmartSparrow = () => {
                 <ProjectTextRow width="s">
                   <ProjectSectionHeading>Design Concept</ProjectSectionHeading>
                   <ProjectSectionText>
-                  Houve a necessidade de traduzir o conceito de equity crowdfunding, ainda pouco explorado no Brasil, para um público mais amplo. Para isso, desenvolvi uma abordagem criativa, valendo-me de conceitos do espaço sideral para tornar o tema mais acessível. Ao mesmo tempo, me apropriei da tecnologia e inovação da engenharia espacial, traçando paralelos com as soluções que estávamos implementando no mercado financeiro. Essa estratégia não apenas facilitou a compreensão do público sobre um tema complexo, 
-                  mas também reforçou o posicionamento inovador da empresa no setor.
+                  Para tornar o investimento de risco mais acessível, utilizei a 
+                  metáfora da 'Expedição' para guiar o usuário através do funil de conversão. 
+                  O conceito visual, inspirado em expedições aeroespaciais, não foi somente uma escolha 
+                  estética, mas também uma ferramenta pedagógica para traduzir um mercado novo com uma estética que o usuário já apreciava. 
               
                   </ProjectSectionText>
                 </ProjectTextRow>
@@ -369,8 +367,6 @@ export const SmartSparrow = () => {
                       Uma expedição ao inexplorado
                       </ProjectSectionHeading>
                       <ProjectSectionText>
-                         Assim como a vastidão do universo nos desafia a conquistá-lo, 
-                         o design deste produto reflete a jornada de conquista em um mercado inexplorado. 
                          O impacto dessa jornada se refletiu no crescimento do mercado de equity crowdfunding, 
                          evoluindo para um ecossistema onde os usuários podem até mesmo revender suas cotas, 
                         ampliando ainda mais as oportunidades de acesso e troca.
@@ -393,12 +389,10 @@ export const SmartSparrow = () => {
                   <ProjectSectionContent width="xl">
                     <ProjectTextRow justify="end" width="s">
                       <ProjectSectionHeading level={4} as="h3">
-                        Uma expedição dentro da Terra
+                        Uma expedição dentro do mercado
                       </ProjectSectionHeading>
                       <ProjectSectionText>
-                       Fazendo uma nova analogia com o conceito de design usado no produto, 
-                       é como se o usuário pudesse explorar 
-                        o mercado na Terra ou fora dela.
+                    Lorem ipsum
                       </ProjectSectionText>
                     </ProjectTextRow>
                   </ProjectSectionContent>
