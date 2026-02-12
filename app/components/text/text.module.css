@@ -51,4 +51,22 @@
       color: var(--textLight);
     }
   }
+
+  .segment {
+    &[data-weight='auto'] {
+      font-weight: inherit;
+    }
+
+    &[data-weight='regular'] {
+      font-weight: var(--fontWeightRegular);
+    }
+
+    &[data-weight='medium'] {
+      font-weight: var(--fontWeightMedium);
+    }
+
+    &[data-weight='bold'] {
+      font-weight: var(--fontWeightBold);
+    }
+  }
 }
