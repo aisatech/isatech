@@ -8,7 +8,7 @@ import { Heading } from '~/components/heading';
 import { Image } from '~/components/image';
 import { Link } from '~/components/link';
 import { Section } from '~/components/section';
-import { Text } from '~/components/text';
+import { Text, TextSegment } from '~/components/text';
 import { Transition } from '~/components/transition';
 import { Fragment, useState } from 'react';
 import { media } from '~/utils/style';
@@ -20,11 +20,15 @@ const ProfileText = ({ visible, titleId }) => (
     <Heading className={styles.title} data-visible={visible} level={3} id={titleId}>
       <DecoderText text="Hello, world!" start={visible} delay={500} />
     </Heading>
+   
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-    Meu nome é Isabelle Oliveira. Sou designer e desenvolvedora júnior, apaixonada por tecnologia e aprendizado contínuo. Estou cursando Ciência da Computação e atualmente moro em Belém do Pará, no coração da Amazônia.
-    </Text>
-    <Text className={styles.description} data-visible={visible} size="l" as="p">
-    Minha trajetória profissional inclui contribuições marcantes no mercado financeiro, onde ajudei a criar produtos que conquistaram a confiança de grandes players como o BTG Pactual. Durante meu período na Stone, líder em soluções de pagamento no Brasil, mergulhei no ecossistema de vendas presenciais. Com uma visão criativa, estou pronta para transformar desafios em soluções inovadoras que gerem impacto.
+ Meu nome é Isabelle, sou uma Product Designer com sólida bagagem no <TextSegment weight="bold">setor financeiro</TextSegment>, acumulando experiência estratégica na criação de soluções para ecossistemas pagamentos e investimentos. Meu foco é transformar diretrizes regulatórias e requisitos técnicos em jornadas simples e intuitivas, garantindo que a tecnologia seja um facilitador, e não um ponto de fricção para o usuário final.
+</Text>
+  <Text className={styles.description} data-visible={visible} size="l" as="p">
+Ao longo da minha trajetória, desenvolvi interfaces para mobile, web, e também Android e linux embarcado em maquininhas de cartão. 
+
+Tenho um perfil "mão na massa", atuando desde o Discovery e pesquisa com usuários até a entrega de protótipos de alta fidelidade.
+
     </Text>
   </Fragment>
 );
