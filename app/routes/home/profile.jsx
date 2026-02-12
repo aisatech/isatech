@@ -22,12 +22,11 @@ const ProfileText = ({ visible, titleId }) => (
     </Heading>
    
     <Text className={styles.description} data-visible={visible} size="l" as="p">
- Meu nome é Isabelle, sou uma Product Designer com sólida bagagem no <TextSegment weight="bold">setor financeiro</TextSegment>, acumulando experiência estratégica na criação de soluções para ecossistemas pagamentos e investimentos. Meu foco é transformar diretrizes regulatórias e requisitos técnicos em jornadas simples e intuitivas, garantindo que a tecnologia seja um facilitador, e não um ponto de fricção para o usuário final.
+ Meu nome é Isabelle, sou uma Product Designer e desenvolvedora front-end com sólida bagagem no <TextSegment weight="bold">setor financeiro</TextSegment>, acumulando experiência estratégica na criação de soluções para <TextSegment weight="bold">ecossistemas de pagamentos e investimentos</TextSegment>. Meu foco é transformar diretrizes regulatórias e requisitos técnicos em jornadas simples e intuitivas, garantindo que a tecnologia seja um facilitador, e não um ponto de fricção para o usuário final.
 </Text>
   <Text className={styles.description} data-visible={visible} size="l" as="p">
-Ao longo da minha trajetória, desenvolvi interfaces para mobile, web, e também Android e linux embarcado em maquininhas de cartão. 
-
-Tenho um perfil "mão na massa", atuando desde o Discovery e pesquisa com usuários até a entrega de protótipos de alta fidelidade.
+Ao longo da minha trajetória, desenvolvi interfaces para ambientes mobile, web, e sistemas embarcados em maquininhas de cartão. 
+Tenho um <TextSegment weight="bold">perfil "mão na massa"</TextSegment>, atuando em todas as etapas do ciclo de produto, desde o Discovery e pesquisa com usuários até a entrega de protótipos de alta fidelidade.
 
     </Text>
   </Fragment>
