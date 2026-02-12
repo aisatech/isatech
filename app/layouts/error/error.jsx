@@ -18,9 +18,9 @@ export function Error({ error }) {
     switch (error.status) {
       case 404:
         return {
-          summary: 'Error: redacted',
+          summary: 'Error: not found',
           message:
-            'This page could not be found. It either doesn’t exist or was deleted. Or perhaps you don’t exist and this webpage couldn’t find you.',
+            'A página que vocÊ está tentando acessar não existe. Verifique se o endereço digitado na barra de navegação está correto. Talvez vocÊ não exista também... Se o erro persistir, busque suporte emocional.',
         };
       case 405:
         return {
@@ -103,10 +103,10 @@ export function Error({ error }) {
                     iconHoverShift
                     className={styles.button}
                     data-visible={visible}
-                    href="https://www.youtube.com/watch?v=EuQzHGcsjlA"
+                    href="https://youtu.be/5QdDIedxBXg?si=z6SyRa6DZFN-Tc-P"
                     icon="chevron-right"
                   >
-                    Emotional support
+                    Suporte emocional
                   </Button>
                 ) : (
                   <Button
@@ -117,7 +117,7 @@ export function Error({ error }) {
                     href="/"
                     icon="chevron-right"
                   >
-                    Back to homepage
+                    Voltar para a home
                   </Button>
                 )}
               </div>
@@ -141,7 +141,7 @@ export function Error({ error }) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Animation from Berserk (1997)
+                  Animção de Berserk (1997)
                 </a>
               ) : (
                 <a
@@ -151,7 +151,7 @@ export function Error({ error }) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Animation from Ghost in the Shell (1995)
+                  Animação de Ghost in the Shell (1995)
                 </a>
               )}
             </div>
