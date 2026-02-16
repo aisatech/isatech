@@ -131,7 +131,7 @@ export const Home = () => {
         alternate
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
-        index={2024}
+        index={2025}
         title="Template global de campanhas para POS: padronizando performance para milhões de usuários"
         description="Template desenvolvido para a divulgação de campanhas e informes para clientes Ton e Stone. O objetivo era reduzir custos com dados móveis e otimizar performance em sistemas Linux e Android embarcados nas maquininhas."
         categories={['Design', 'UX', 'Campanha']}

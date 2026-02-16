@@ -52,7 +52,9 @@ export function ProjectSummary({
     setModelLoaded(true);
   }
 
-   function renderKatakana(device, visible) {
+   function renderKatakana(projectId, device, visible) {
+    const symbolId = `katakana-${projectId}`;
+
     return (
       <svg
         type="project"
@@ -61,9 +63,8 @@ export function ProjectSummary({
         style={cssProps({ opacity: svgOpacity })}
         className={styles.svg}
         data-device={device}
-        viewBox="0 0 751 136"
       >
-        <use href={`${katakana}#katakana-project`} />
+        <use href={`${katakana.split('?')[0]}#${projectId}`} />
       </svg>
     );
   }

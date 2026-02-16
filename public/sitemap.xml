@@ -1,6 +1,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hamishw.com/</loc>
+    <loc>https://isatech.pages.dev/</loc>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -28,11 +28,8 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://hamishw.com/articles/hello-world</loc>
+    <loc>https://isatech.pages.dev/articles/hello-world</loc>
     <changefreq>monthly</changefreq>
   </url>
-  <url>
-    <loc>https://hamishw.com/articles/modern-styling-in-react</loc>
-    <changefreq>monthly</changefreq>
-  </url>
+
 </urlset>

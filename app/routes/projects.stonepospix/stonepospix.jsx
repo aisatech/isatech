@@ -95,7 +95,7 @@ export const Stonepospix = () => {
               <ProjectSectionText>
              Definimos um template global de campanhas, que padroniza a estrutura e o design das campanhas para os clientes Ton e Stone. O template é otimizado para reduzir o consumo de dados móveis e melhorar o desempenho em uma ampla variedade de dispositivos, garantindo uma experiência consistente e eficiente para milhões de usuários.
              Além do design, foi pensado em uma estrutura de desenvolvimento que permitisse a fácil implementação e manutenção do template, facilitando a criação de campanhas para diferentes cenários sem a necessidade de desenvolver cada uma do zero. 
-             A redução no consumo de dados móveis para a companhia era uma das metas do trimestre (Q2 - 2024), por isso foi um requisito tão importante para esse projeto.
+             A redução no consumo de dados móveis para a companhia era uma das metas do trimestre (Q2 - 2025), por isso foi um requisito tão importante para esse projeto.
              Os impactos esperados incluem uma redução significativa no custo do contrato de dados móveis excedentes, que era um gasto milionário.
               </ProjectSectionText>
             </ProjectTextRow>
