@@ -389,10 +389,10 @@ export const SmartSparrow = () => {
                   <ProjectSectionContent width="xl">
                     <ProjectTextRow justify="end" width="s">
                       <ProjectSectionHeading level={4} as="h3">
-                        Uma expedição dentro do mercado
+                        Trouxemos o modelo de venture capital para o mundo digital  
                       </ProjectSectionHeading>
                       <ProjectSectionText>
-                    Lorem ipsum
+                      O conceito de 'Expedição' guiou os usuários por uma jornada de descoberta e investimento, tornando o processo de venture capital mais acessível e compreensível para um público amplo.
                       </ProjectSectionText>
                     </ProjectTextRow>
                   </ProjectSectionContent>
@@ -461,7 +461,7 @@ export const SmartSparrow = () => {
                   ? imageSprStoryboarderDarkPlaceholder
                   : imageSprStoryboarderLightPlaceholder
               }
-              alt="A drag and drop storyboard style editor for creating an adaptive lesson."
+              alt="Notícias sobre a BridgeHub na mídia brasileira"
               sizes={`(max-width: ${media.mobile}px) 100vw, 80vw`}
             />
           </ProjectSectionContent>

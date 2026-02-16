@@ -132,8 +132,8 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2024}
-        title="Campanha PIX"
-        description="Experiência para o recebimento e leitura de uma campanha de divulgação da funcionalidade PIX, que recebeu atualizações. A campanha foi desenvolvida paras as marcas Ton e Stone e exibida para mais de 1,6 milhão de clientes."
+        title="Template global de campanhas para POS: padronizando performance para milhões de usuários"
+        description="Template desenvolvido para a divulgação de campanhas e informes para clientes Ton e Stone. O objetivo era reduzir custos com dados móveis e otimizar performance em sistemas Linux e Android embarcados nas maquininhas."
         categories={['Design', 'UX', 'Campanha']}
         buttonText="Ver projeto"
         buttonLink="/projects/stonepospix"
@@ -213,14 +213,14 @@ model={{
         sectionRef={projectFour}
         visible={visibleSections.includes(projectFour.current)}
         index={2024}
-        title="Otimização de artigos internos para treinamento de pessoal e LLM's - Stone"
-        description="Protagonizei um projeto interno que consistiu em otimizar artigos para o treinamento de pessoal e também de LLM's da própria companhia. "
+        title="Arquitetura de Conteúdo para LLMs e pessoas: transformando o atentimento Stone e Ton"
+        description="Protagonizei um projeto interno que consistiu em remodelar um sistema de documentação para o treinamento de pessoal e também de LLM's da própria companhia. É um projeto contínuo que já gerou um índice de 93% de aprovação dos clientes sobre o uso de IA no atendimento. "
         categories={['Documentação', 'LLM', 'Otimização']}
         buttonText="Entre em contato para saber mais"
         buttonLink="/contact"
         model={{
           type: 'laptop',
-          alt: 'Annotating a biomedical image in the Slice app',
+          alt: 'projeto aberto em um laptop',
           textures: [
             {
               srcSet: `${capaStone} 800w, ${capaStone} 1920w`,

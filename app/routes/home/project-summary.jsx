@@ -12,8 +12,8 @@ import { useWindowSize } from '~/hooks';
 import { Suspense, lazy, useState } from 'react';
 import { cssProps, media } from '~/utils/style';
 import { useHydrated } from '~/hooks/useHydrated';
-import katakana from './StoneCo.svg';
 import styles from './project-summary.module.css';
+import katakana from './katakana.svg';
 
 const Model = lazy(() =>
   import('~/components/model').then(module => ({ default: module.Model }))
@@ -34,12 +34,6 @@ export function ProjectSummary({
   ...rest
 }) {
 
-  const viewBoxMapping = {
-    "katakana-project": "0 0 162 33",
-    "katakana-project-1": "0 0 162 33",
-    "katakana-default": "0 0 300 100", 
-  };
-
   const [focused, setFocused] = useState(false);
   const [modelLoaded, setModelLoaded] = useState(false);
   const { theme } = useTheme();
@@ -47,8 +41,7 @@ export function ProjectSummary({
   const isHydrated = useHydrated();
   const titleId = `${id}-title`;
   const isMobile = width <= media.tablet;
-  const katakanaId = `katakana-${id}`;
-  const viewBox = viewBoxMapping[katakanaId] || "0 0 162 33";
+  
   const svgOpacity = theme === 'light' ? 0.7 : 1;
   const indexText = index < 10 ? `0${index}` : index;
   const creditoSizes = `(max-width: ${media.tablet}px) 30vw, 20vw`;
@@ -59,8 +52,7 @@ export function ProjectSummary({
     setModelLoaded(true);
   }
 
-  function renderKatakana(id, device, visible) {
-  
+   function renderKatakana(device, visible) {
     return (
       <svg
         type="project"
@@ -69,12 +61,9 @@ export function ProjectSummary({
         style={cssProps({ opacity: svgOpacity })}
         className={styles.svg}
         data-device={device}
-        viewBox={viewBox}
-
+        viewBox="0 0 751 136"
       >
-      <use href={`${katakana.split('?')[0]}#${katakanaId}`} />
-
-
+        <use href={`${katakana}#katakana-project`} />
       </svg>
     );
   }
@@ -130,7 +119,7 @@ export function ProjectSummary({
 
 {model.type === 'credito' && (
           <>
-           {renderKatakana( id, visible)} 
+                      {renderKatakana(id, 'credito', visible)} 
             <div className={styles.model} data-device="credito">
               {!modelLoaded && (
                 <Loader center className={styles.loader} data-visible={visible} />
@@ -172,7 +161,7 @@ export function ProjectSummary({
 
         {model.type === 'laptop' && (
           <>
-            {renderKatakana('laptop', visible)}
+            {renderKatakana(id, 'laptop', visible)}
             <div className={styles.model} data-device="laptop">
               {!modelLoaded && (
                 <Loader center className={styles.loader} data-visible={visible} />
@@ -202,7 +191,7 @@ export function ProjectSummary({
         )}
         {model.type === 'phone' && (
           <>
-            {renderKatakana('phone', visible)}
+            {renderKatakana(id, 'phone', visible)}
             <div className={styles.model} data-device="phone">
               {!modelLoaded && (
                 <Loader center className={styles.loader} data-visible={visible} />
